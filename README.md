@@ -13,7 +13,9 @@ Then: I am able to verify the item in my cart <br />
 
 ## Usage
 Below command will launch the tests in chrome browser <br />
-./gradlew test
+    ./gradlew test
+
+Replace `./gradlew` with `gradlew.bat` in the above examples if you're on Windows.
 
 
 ## Report : Spock reports
