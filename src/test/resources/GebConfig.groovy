@@ -35,10 +35,10 @@ atCheckWaiting = true
 baseNavigatorWaiting = true
 cacheDriverPerThread = true
 
-//reportingListener = new GebReportingListener()
+reportingListener = new GebReportingListener()
 
 //reportsDir = System.getProperty("geb.build.reportsDir", "report")
-//reportsDir=System.getProperty("geb.build.reportsDir","build/reports/geb")
+reportsDir=System.getProperty("geb.build.reportsDir","build/reports/geb")
 
 
 driver = {
